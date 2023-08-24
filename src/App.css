@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  /* background-color: #131520; */
+}
+
+.logo{
+  height:6rem;
+  padding: 1.5rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover{
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
