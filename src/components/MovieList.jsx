@@ -40,7 +40,7 @@ const sliderLeft=(element)=>{
          `} 
         onClick={()=>sliderRight(elementRef.current)}/>
       
-    <div className='flex overflow-x-auto scrollbar-none gap-8 pt-5 px-3 pb-10 scroll-smooth' ref={elementRef}>
+    <div className='flex overflow-x-auto scrollbar-none gap-8 pt-5 px-3 pb-2 scroll-smooth' ref={elementRef}>
       {moviesList.map((item,index)=>(
        <>
          {index_%3==0?<WeekendMovies movie={item}/> :
