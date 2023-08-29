@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import GenereMoviesList from './components/GenereMoviesList';
 import Header from './components/Header';
 import ProductionsHouse from './components/ProductionsHouse';
@@ -12,6 +13,7 @@ function App() {
     <Slider />
     <ProductionsHouse/>
     <GenereMoviesList/>
+    <Footer/>
       
        
     </>

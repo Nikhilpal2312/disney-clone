@@ -42,7 +42,7 @@ const menu=[
 ]
 
   return (
-    <div className='flex items-center  justify-between p-4'>
+    <div className='flex items-center  justify-between p-4 '>
        <div className='flex items-center gap-8'>
        <img src={logo} alt="Disney+ Hotstar" className='w-[80px] object-cover md:max-w-[115px]'/>
        
@@ -53,7 +53,7 @@ const menu=[
             ))
         }
        </div>
-       <div className='md:hidden flex gap-5'>
+       <div className='md:hidden flex gap-5 '>
        {
             menu.map((item, index)=>index<3&&(
                 <HeaderItem key={item.id} name={""} Icon={item.icon}/>
